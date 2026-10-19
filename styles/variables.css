@@ -6,6 +6,8 @@
 :root {
   --font: 'IBM Plex Mono';
   --font-size: 18px;
+  --title-font-size-small: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --padding-small: 10px;
   --padding-normal: 20px;
   --bg-image: url(../images/cover-image-dark.png);

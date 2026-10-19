@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/variables.css">
-    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
     <link rel="stylesheet" href="./styles/light.css">
     <link rel="stylesheet" href="./styles/style.css">
@@ -51,7 +50,10 @@
         </ul>
       </nav>
       <h1 class="header__title">no focus</h1>
-      <p class="title-decor header__text">Что делать, когда не можешь делать ничего <br>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
+      <div  class="title-decor header__text">
+        <p>Что делать, когда не можешь делать ничего</p>
+        <p>Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
+      </div>
     </header>
     <main>
       <section class="section section-into">
@@ -87,8 +89,8 @@
       <section class="section section-advices">
         <h2 class="section__title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
         <div class="card__wrapper">
-          <article class="card">
-            <h3 class="card__title title-decor">5 простых (на самом деле не очень) советов</h3>
+          <h3 class="card__title title-decor">5 простых (на самом деле не очень) советов</h3>
+          <article class="card">           
             <h4 class="card__subtitle title-decor">Представьте небо и облака</h4>
             <p class="card__text">Или листья в ручье. Тут дело в лёгкой медитации, которая помогает успокоиться. Ведь часто именно тревожные мысли о сложных задачах как раз и мешают эти сложные задачи делать. В такие моменты можно закрыть глаза и представить, что чистое небо — это вы, а облака — тревожные мысли. И сколько бы их ни было — ясное небо всегда будет где-то там, за тучами, и никуда не денется. Это упражнение поможет вернуться в настоящий момент, а не волноваться о потенциальных проблемах из будущего.</p>
           </article>
@@ -111,27 +113,27 @@
         </div>
       </section>
       <section class="section section-gallery">
-        <h3 class="card__title title-decor">А можно в картинках?</h3>
+        <h2 class="section__title title-decor">А можно в картинках?</h2>
         <div class="gallery">
-          <div class="gallery__item gallery__item-sunset">
-            <img src="images/sunset.png" alt="" class="gallery__image" loading="lazy">
+          <div class="gallery__item">
+            <img src="images/sunset.png" alt="Красивая картинка с закатом над горами" class="gallery__image" loading="lazy">
           </div>
-          <div class="gallery__item gallery__item-ice-cream">
-            <img src="images/ice-cream.png" alt="" class="gallery__image" loading="lazy">
+          <div class="gallery__item">
+            <img src="images/ice-cream.png" alt="Милое мореженное в стиле аниме" class="gallery__image" loading="lazy">
           </div>
-          <div class="gallery__item gallery__item-tape">
-            <img src="images/tape.png" alt="" class="gallery__image" loading="lazy">
+          <div class="gallery__item">
+            <img src="images/tape.png" alt="Изображение касеты" class="gallery__image" loading="lazy">
           </div>
-          <div class="gallery__item gallery__item-books">
-            <img src="images/books.png" alt="" class="gallery__image" loading="lazy">
+          <div class="gallery__item">
+            <img src="images/books.png" alt="Рисованное изображение стопки книг, на которых стоит чашка" class="gallery__image" loading="lazy">
           </div>
-          <div class="gallery__item gallery__item-street">
-            <img src="images/street.png" alt="" class="gallery__image" loading="lazy">
+          <div class="gallery__item">
+            <img src="images/street.png" alt="Рисованное изображение улицы с домами" class="gallery__image" loading="lazy">
           </div>
         </div>
       </section>          
     </main>
-    <footer class="footer">
+    <footer class="footer decorated-zone">
       <div class="footer__text">focus</div>
     </footer>
   </body>
