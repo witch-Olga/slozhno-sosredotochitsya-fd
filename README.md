@@ -1,0 +1,1 @@
+Третья проектная работа «Посмотри в окно» на курсе Фронтенд-разработчик от Яндекс.Практикум [git@github.com:witch-Olga/slozhno-sosredotochitsya-fd.git]
