@@ -288,6 +288,10 @@
     gap: 20px;
   }
 
+  .section-gallery .section__title {
+    margin-bottom: 16px;
+  }
+
   .gallery__item {
     overflow: hidden;
   }
@@ -374,10 +378,6 @@
 
   .section-reasons .card__wrapper {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .section-gallery .section__title {
-    margin-bottom: 16px;
   }
 
 }
